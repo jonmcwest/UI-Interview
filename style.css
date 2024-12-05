@@ -3,12 +3,19 @@
 @tailwind utilities;
 
 :root {
+  --color-primary: #FFE81F;      /* Star Wars yellow */
+  --color-white: #FFFFFF;         /* White */
+  --color-black: #000000;   /* Black */
+}
+
+
+:root {
   font-family: 'Orbitron', sans-serif;
-  color: #fff;
+  color: var(--color-white);
 }
 
 body{
-  background-color: #000;
+  background-color: var(--color-black);
 }
 
 .bg {
@@ -58,7 +65,7 @@ body{
   font-size: 28px;
   font-family: "Orbitron-Bold", "Orbitron Bold", "Orbitron", sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .title-container {
