@@ -46,3 +46,24 @@ body{
   height: 80px;
 }
 
+.main {
+  padding: 27px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px;
+  font-family: "Orbitron-Bold", "Orbitron Bold", "Orbitron", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;   /* Exact gap on design */
+}
