@@ -22,7 +22,13 @@ body{
 }
 
 .bg {
-  background-image: url('/public/bg.png');
+  background-image: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.498) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('/public/bg.png');
   position: fixed;
   top: 0;
   left: 0;
@@ -109,7 +115,6 @@ body{
   padding-top: 12px;
   width: 100%;
   height: 100%;
-  /* padding: 44px 15px; */
 }
 
 .opponent-question-mark {
